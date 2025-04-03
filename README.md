@@ -1,4 +1,4 @@
-# asm 
+![image](https://github.com/user-attachments/assets/8360cae9-a3a2-408e-aa4d-93e567673c0e)# asm 
 # gdb lab#1 
 
 
@@ -29,4 +29,17 @@ Dissamble func function <br>
 disas func
 ```
 ![image](https://github.com/user-attachments/assets/18fdec63-d980-413b-9a9f-e7ac0a0abf0f)
+
+To test if the gdb work: 
+```sh
+r
+```
+![image](https://github.com/user-attachments/assets/72d3d55c-76eb-4ecd-ae11-e4d8590e6499)
+
+##. Exercise: 
+Nagivate an eip to func():
+```sh
+b *<address of func()
+```
+![image](https://github.com/user-attachments/assets/c6cb5764-97ce-4ab1-8fd0-05fab3befe3a)
 
