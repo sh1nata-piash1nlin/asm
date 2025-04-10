@@ -1,4 +1,21 @@
+#Code interpretation: 
+section .text
+global _start
 
+_start:
+    mov al, [a]      ; Load value of 'a' (17) into AL
+    add al, [b]      ; Add value of 'b' (9) → AL = 26
+    mov [c], al      ; Store result (26) in 'c'
+
+    mov eax, 4       ; syscall number for sys_write
+    mov ebx, 1       ; file descriptor 1 (stdout)
+    mov ecx, hello   ; pointer to message to print
+    mov edx, len     ; length of message
+    int 0x80         ; make syscall (print)
+
+last:
+    mov eax, SYS_EXIT ; syscall number for exit
+    int 0x80          ; exit the program
 
 ## Compile source code with nasm: 
 ```sh
@@ -49,5 +66,7 @@ info var
 Use `x/s <address>` used to examine memory and interpret it as a null-terminated C-style string. 
 ![image](https://github.com/user-attachments/assets/6e8f5393-fdaa-4b1d-ab5e-4ae9fb11c1be)
 
+#Try to change the variable of a and b: 
+![image](https://github.com/user-attachments/assets/4cf98de0-e163-4778-878b-aa0910b80a95)
 
 
