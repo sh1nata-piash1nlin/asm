@@ -66,6 +66,12 @@ info var
 Use `x/s <address>` used to examine memory and interpret it as a null-terminated C-style string.    <br> 
 ![image](https://github.com/user-attachments/assets/6e8f5393-fdaa-4b1d-ab5e-4ae9fb11c1be)
 
+``` sh
+\n → Newline character (ASCII code 10) 
+\034 → This is an octal escape, representing a byte with value 28 in decimal
+```
+
+
 #Try to change the variable of a and b:  <br> 
 ![image](https://github.com/user-attachments/assets/4cf98de0-e163-4778-878b-aa0910b80a95)
 
