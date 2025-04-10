@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8360cae9-a3a2-408e-aa4d-93e567673c0e)# asm 
+# asm 
 # gdb lab#1 
 
 
