@@ -63,10 +63,10 @@ info var
 ```
 ![image](https://github.com/user-attachments/assets/34ec01b7-1810-49a0-baec-50f638d88692)
 
-Use `x/s <address>` used to examine memory and interpret it as a null-terminated C-style string. 
+Use `x/s <address>` used to examine memory and interpret it as a null-terminated C-style string.    <br> 
 ![image](https://github.com/user-attachments/assets/6e8f5393-fdaa-4b1d-ab5e-4ae9fb11c1be)
 
-#Try to change the variable of a and b: 
+#Try to change the variable of a and b:  <br> 
 ![image](https://github.com/user-attachments/assets/4cf98de0-e163-4778-878b-aa0910b80a95)
 
 
